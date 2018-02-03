@@ -75,12 +75,6 @@ cabal-tweak-dep-ver hashable '1.2.6' '1.2.5'
 %cabal_test
 
 
-%post -p /sbin/ldconfig
-
-
-%postun -p /sbin/ldconfig
-
-
 %post devel
 %ghc_pkg_recache
 
