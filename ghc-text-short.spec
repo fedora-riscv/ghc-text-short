@@ -8,7 +8,7 @@
 
 Name:           ghc-%{pkg_name}
 Version:        0.1.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Memory-efficient representation of Unicode text strings
 
 License:        BSD
@@ -92,6 +92,9 @@ cabal-tweak-dep-ver hashable '1.2.6' '1.2.5'
 
 
 %changelog
+* Fri Jul 13 2018 Fedora Release Engineering <releng@fedoraproject.org> - 0.1.2-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_29_Mass_Rebuild
+
 * Mon Jul 09 2018 Elliott Sales de Andrade <quantum.analyst@gmail.com> - 0.1.2-1
 - update to 0.1.2
 
