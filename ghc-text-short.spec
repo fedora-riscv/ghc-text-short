@@ -8,7 +8,7 @@
 
 Name:           ghc-%{pkg_name}
 Version:        0.1.2
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Memory-efficient representation of Unicode text strings
 
 License:        BSD
@@ -123,6 +123,9 @@ cp -bp %{SOURCE1} %{pkg_name}.cabal
 
 
 %changelog
+* Tue Jan 28 2020 Fedora Release Engineering <releng@fedoraproject.org> - 0.1.2-8
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
+
 * Fri Aug 02 2019 Jens Petersen <petersen@redhat.com> - 0.1.2-7
 - add doc and prof subpackages (cabal-rpm-1.0.0)
 
