@@ -8,7 +8,7 @@
 
 Name:           ghc-%{pkg_name}
 Version:        0.1.3
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Memory-efficient representation of Unicode text strings
 
 License:        BSD
@@ -116,6 +116,9 @@ cp -bp %{SOURCE1} %{pkg_name}.cabal
 
 
 %changelog
+* Fri Jul 17 2020 Jens Petersen <petersen@redhat.com> - 0.1.3-2
+- refresh to cabal-rpm-2.0.6
+
 * Fri Feb 14 2020 Jens Petersen <petersen@redhat.com> - 0.1.3-1
 - update to 0.1.3
 
