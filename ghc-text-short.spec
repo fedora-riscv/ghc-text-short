@@ -8,7 +8,7 @@
 
 Name:           ghc-%{pkg_name}
 Version:        0.1.3
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Memory-efficient representation of Unicode text strings
 
 License:        BSD
@@ -116,6 +116,10 @@ cp -bp %{SOURCE1} %{pkg_name}.cabal
 
 
 %changelog
+* Sat Aug 01 2020 Fedora Release Engineering <releng@fedoraproject.org> - 0.1.3-4
+- Second attempt - Rebuilt for
+  https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
+
 * Mon Jul 27 2020 Fedora Release Engineering <releng@fedoraproject.org> - 0.1.3-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
 
