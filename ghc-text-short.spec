@@ -8,7 +8,7 @@
 
 Name:           ghc-%{pkg_name}
 Version:        0.1.3
-Release:        9%{?dist}
+Release:        10%{?dist}
 Summary:        Memory-efficient representation of Unicode text strings
 
 License:        BSD
@@ -117,6 +117,9 @@ cp -bp %{SOURCE1} %{pkg_name}.cabal
 
 
 %changelog
+* Fri Jun 17 2022 Jens Petersen <petersen@redhat.com> - 0.1.3-10
+- rebuild
+
 * Thu Mar 10 2022 Jens Petersen <petersen@redhat.com> - 0.1.3-9
 - rebuild
 
