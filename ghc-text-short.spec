@@ -4,11 +4,13 @@
 %global pkg_name text-short
 %global pkgver %{pkg_name}-%{version}
 
+%ifnarch riscv64
 %bcond_without tests
+%endif
 
 Name:           ghc-%{pkg_name}
 Version:        0.1.5
-Release:        %autorelease
+Release:        %autorelease -e 0.rv64
 Summary:        Memory-efficient representation of Unicode text strings
 
 License:        BSD-3-Clause
